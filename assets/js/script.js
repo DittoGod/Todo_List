@@ -24,3 +24,8 @@ $("input[type='text']").keypress(function (e) {
         $("ul").append("<li><span><i class=\"fas fa-trash-alt\"></i></span> " + todoText + "</li>");
     }
 });
+
+$(".fa-edit").click(function (e) { 
+    e.preventDefault();
+    $("input[type='text']").fadeToggle();
+});

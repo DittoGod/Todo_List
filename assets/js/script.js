@@ -21,6 +21,6 @@ $("input[type='text']").keypress(function (e) {
         // clear the contentsof the textbox.
         $(this).val("");
         // create new li and add to ul.
-        $("ul").append("<li><span>X</span> " + todoText + "</li>");
+        $("ul").append("<li><span><i class=\"fas fa-trash-alt\"></i></span> " + todoText + "</li>");
     }
 });
